@@ -9,16 +9,18 @@ var HEU_API = {
 
 var HEU_TIME_SLOTS = [
     { number: 1, startTime: "08:00", endTime: "08:45" },
-    { number: 2, startTime: "08:55", endTime: "09:40" },
-    { number: 3, startTime: "10:00", endTime: "10:45" },
-    { number: 4, startTime: "10:55", endTime: "11:40" },
-    { number: 5, startTime: "13:30", endTime: "14:15" },
-    { number: 6, startTime: "14:25", endTime: "15:10" },
-    { number: 7, startTime: "15:30", endTime: "16:15" },
-    { number: 8, startTime: "16:25", endTime: "17:10" },
-    { number: 9, startTime: "18:30", endTime: "19:15" },
-    { number: 10, startTime: "19:25", endTime: "20:10" },
-    { number: 11, startTime: "20:20", endTime: "21:05" }
+    { number: 2, startTime: "08:50", endTime: "09:35" },
+    { number: 3, startTime: "09:55", endTime: "10:40" },
+    { number: 4, startTime: "10:50", endTime: "11:35" },
+    { number: 5, startTime: "11:35", endTime: "12:20" },
+    { number: 6, startTime: "13:30", endTime: "14:15" },
+    { number: 7, startTime: "14:20", endTime: "15:05" },
+    { number: 8, startTime: "15:25", endTime: "16:10" },
+    { number: 9, startTime: "16:20", endTime: "17:05" },
+    { number: 10, startTime: "17:05", endTime: "17:50" },
+    { number: 11, startTime: "18:30", endTime: "19:15" },
+    { number: 12, startTime: "19:25", endTime: "20:10" },
+    { number: 13, startTime: "20:10", endTime: "20:55" }
 ];
 
 async function postJson(url, params) {
