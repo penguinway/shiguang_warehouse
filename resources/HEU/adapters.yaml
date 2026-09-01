@@ -1,0 +1,8 @@
+adapters:
+  - adapter_id: "HEU"
+    adapter_name: "哈尔滨工程大学教务系统"
+    category: "BACHELOR_AND_ASSOCIATE"
+    asset_js_path: "heu.js"
+    import_url: "https://jwgl.hrbeu.edu.cn/jwapp/sys/emaphome/portal/index.do"
+    maintainer: "penguinway"
+    description: "金智教务(EMAP)适配，需校园网或WebVPN访问。登录后直接点击导入即可。"
